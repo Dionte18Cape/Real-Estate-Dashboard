@@ -75,7 +75,3 @@ Additionally, cities like Hewlett Bay Park consistently outperform others — hi
 ## 🌐 Author
 **Dionte Capleton**  
 [🔗 LinkedIn](https://www.linkedin.com/in/dionte-capleton-54074524a/) | GitHub: [Dionte18Cape](https://github.com/Dionte18Cape)
-
-
----
-
