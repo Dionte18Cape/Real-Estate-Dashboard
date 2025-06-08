@@ -1,80 +1,81 @@
-# 🏡 Real Estate Market Insights Dashboard
+# 🏠 Real Estate Market Insights Dashboard
 
-📊 **Interactive Dashboard | Data Analysis | Business Intelligence**  
-🔍 **Explore pricing trends, property value patterns, and layout affordability from 10,000+ listings across the U.S.**
-
-![RETAIL_THUMBNAIL](RETAIL_THUMBNAIL.png)
+This project provides a comprehensive real estate market analysis across 10,000+ property listings using Python, Power BI, and interactive visualizations. It reveals key trends in property pricing, size, and regional value distribution.
 
 ---
 
-## 🔎 Business Problem
+## 📊 Dashboard Highlights
 
-**How can real estate analysts identify high-value market patterns, pricing anomalies, and optimal layouts across different U.S. states?**
+### 📌 Page 1: Market Overview
+- **Average Price:** $672K  
+- **Avg Price per Sq Ft:** $320  
+- **Top City by Price:** Hewlett Bay Park  
+- **Map View:** Geographic listing density and pricing by state  
+- **State Filter:** Dynamic control to view state-specific insights  
 
-Real estate professionals, investors, and brokers need to make data-driven decisions when evaluating price per square foot, high-cost layouts, and location-specific trends. This project delivers insight into pricing disparities and layout structures that drive valuation.
+### 🛏️ Page 2: Layout and Distribution Analysis
+- **Top Layout:** 10 bed / 11 bath – $4216 per Sq Ft  
+- **Top 10 Most Expensive Bed/Bath Layouts**  
+- **Price Distribution by Bed/Bath:** Color-coded bubble chart for layout frequency and pricing spread  
+- **Interactive Filters:** State and bedroom count  
 
 ---
 
-## 📈 Dashboard Highlights
+## 🧠 Business Problem
 
-### 🔹 Page 1: Geographic & State-Level Insights
-- **Avg Price** & **Price per Sq Ft** KPIs
-- **Top City by Price**: Hewlett Bay Park
-- **Price by State** (bar chart + filled map)
-- **Interactive State Filter**
+> How can real estate investors and analysts identify high-value opportunities and pricing trends across different states and home configurations?
 
+---
+
+## 💡 Recommendation for CoStar
+
+**Use Bed/Bath Configuration Analysis** to expand valuation models. The data shows a sharp pricing increase among rare high-bedroom, high-bathroom layouts (e.g., 10/11, 8/9) which can be targeted for premium investment and luxury development.  
+
+Additionally, cities like Hewlett Bay Park consistently outperform others — highlighting them as key markets for focused attention in comparative pricing tools.
+
+---
+
+## 📓 Notebook Preview
+
+[![DC_LOGO](DC_LOGO.png)](https://colab.research.google.com/drive/1VSamNvkUxHHvVjVMrK0IrUthVtmXyHHs?usp=sharing)
+
+💡 This Python notebook handles the data wrangling and top-10 pricing logic that fuels the Power BI dashboard. Click to explore the code live on Google Colab.
+
+---
+
+## 📂 Files Included
+
+- `final_real_estate_cleaned.csv` – Cleaned dataset  
+- `REAL ESTATE BI.pbix` – Full Power BI dashboard  
+- `REAL_ESTATE.ipynb` – Python/Colab notebook  
+- `Real_Estate_Market_Insights_Dashboard.pptx` – Presentation-ready PowerPoint  
+- `DC_LOGO.png`, `RETAIL_THUMBNAIL.png` – Branding and preview assets  
+
+---
+
+## 📸 Dashboard Previews
+
+### Page 1  
 ![Dashboard Page 1](Screenshot%202025-06-08%20184928.png)
 
-### 🔹 Page 2: Layout & Property Design Insights
-- **Top Layout**: 10 bed / 11 bath @ $4216 per Sq Ft
-- **Top 10 Most Expensive Bed/Bath Layouts**
-- **Price Distribution by Layout** (scatter plot)
-- **Bedroom Count Filter** (slicer)
-
-![Dashboard Page 2](Screenshot%202025-06-08%20182012.png)
+### Page 2  
+![Dashboard Page 2](Screenshot%202025-06-08%20181957.png)
 
 ---
 
-## 🛠 Tools Used
-
-- **Power BI Desktop** (Data Modeling & Dashboard Design)
-- **Google Colab (Python)** – Data aggregation, top 10 city insights
-- **Excel/CSV** – Data cleaning and preprocessing
-- **GitHub** – Portfolio hosting
-
----
-
-## ✅ Business Recommendation
-
-CoStar and similar real estate platforms could enhance their lead scoring and valuation modeling by:
-> **Incorporating layout-based pricing analysis** to target luxury homebuyers and **benchmarking price per sq ft by region** to guide broker strategies.
+## 🚀 Built With
+- **Python (Pandas, Seaborn)** – Data cleaning & EDA  
+- **Power BI Desktop** – Data modeling & visualization  
+- **Google Colab** – Code execution and logic testing  
+- **Canva** – PowerPoint design  
+- **GitHub** – Version control and showcase
 
 ---
 
-## 📂 Files in This Repo
+## 🌐 Author
+**Dionte Capleton**  
+[🔗 LinkedIn](https://www.linkedin.com/in/dionte-capleton-54074524a/) | GitHub: [Dionte18Cape](https://github.com/Dionte18Cape)
 
-| File | Description |
-|------|-------------|
-| `REAL_ESTATE.ipynb` | Python notebook used for EDA and top 10 city pricing |
-| `final_real_estate_cleaned.csv` | Cleaned dataset for Power BI |
-| `REAL ESTATE BI.pbix` | Power BI source dashboard |
-| `Real_Estate_Market_Insights_Dashboard.pptx` | PowerPoint presentation version |
-| `RETAIL_THUMBNAIL.png` | Custom project thumbnail |
-| `DC_LOGO.png` | Personal branding |
-
----
-
-## 🚀 Interactive Dashboard (Coming Soon)
-
-🔗 *Want to view this live?* Stay tuned — I'm currently migrating it to [Power BI Service](https://app.powerbi.com) or an [interactive web app](#) (GitHub Pages or Streamlit).
-
----
-
-## 💼 About Me
-
-📌 Dionte Cape  
-🔗 [LinkedIn](https://www.linkedin.com/in/dionte-capleton-54074524a/)  
-🔗 [GitHub](https://github.com/Dionte18Cape)
 
 ---
 
